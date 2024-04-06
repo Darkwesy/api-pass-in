@@ -1,0 +1,34 @@
+### Requisição para criação de um evento;
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+  "title": 10,
+  "details": null,
+  "maximumAttendees": 1
+}
+
+### Requisição para registro de um usuário a um evento;
+POST http://localhost:3333/events/f20a1cda-6a67-4779-98f8-5d94ca50e33b/attendees
+Content-Type: application/json
+
+{
+  "name": "Thiago Vinicius",
+  "email": "thiagopazba@gmail.com"
+}
+
+
+### Requisição para somente um evento;
+GET http://localhost:3333/events/d1946291-2354-4158-bd14-614d2a4fcb22
+
+
+### Requisição para busca de todos os usuários atrelados a um evento;
+GET http://localhost:3333/events/13f81786-5435-426b-af4f-45d3175c010c/attendees?query=Thiago
+
+
+### Requisição para criar a badge de um usuário;
+GET http://localhost:3333/attendees/10/badge
+
+
+### Requisição para realizar check-in de um usuário;
+GET http://localhost:3333/attendees/10/check-in
