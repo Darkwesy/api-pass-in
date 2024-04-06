@@ -27,6 +27,14 @@ O sistema fará um scan da credencial do participante para permitir a entrega no
 ### Requisitos não-funcionais
 - [ ] O check-in no evento será realizado através de um QRCode;
 
-## Aprendizado e stacks
-O projeto utiliza TypeScript com o framework Fastify em conjunto com o ORM prisma e dependencias como zod, para validação de dados, e documentação construida com swagger.
-O evento trouxe diversos conceitos sobre back-end como paginação, validação de dados em conjunto com schemas para rotas, alem de criação de error handlers. Contribuindo muito para o meu aprendizado e evolução como desenvolvedor back-end no ecosistema JavaScript/TypeScript.
+## Aprendizado
+
+- O projeto traz conceitos importantes de back-end web utilizando Fastify e prisma, em conjunto com outras dependências importantes para construção de api's web com boa estrutura de código e construção robusta, trazendo validação de rotas tanto em parâmetros quanto em resposta fornecida. Além de tratamento de erro com error handlers e outras configurações. Ótima iniciativa por parte da Rocketseat trazendo conteúdo de altíssima qualidade para a comunidade dev.
+
+## Stacks
+
+- [ ] TypeScript
+- [ ] Fastify
+- [ ] Prisma
+- [ ] Zod
+- [ ] Swagger
